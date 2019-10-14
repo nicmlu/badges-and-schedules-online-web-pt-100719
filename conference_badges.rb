@@ -34,13 +34,13 @@ end
 #   room_list
 # end
 
-def assign_rooms(array)
-  room_assignments = []
-  array.each_with_index do |room, index|
-    room_assignments << "Hello, #{room}! \You'll\ be assigned to room #{index + 1}!"
-  end
-  return room_assignments
-end
+# def assign_rooms(array)
+#   room_assignments = []
+#   array.each_with_index do |room, index|
+#     room_assignments << "Hello, #{room}! \You'll\ be assigned to room #{index + 1}!"
+#   end
+#   return room_assignments
+# end
 
 def printer(attendees)
   batch_badge_creator(attendees) do |attendee|
