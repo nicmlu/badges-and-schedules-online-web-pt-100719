@@ -5,6 +5,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
+  attendees_list = []
  batch_badge_creator.map do |name|
     badge_maker(name)
   end
