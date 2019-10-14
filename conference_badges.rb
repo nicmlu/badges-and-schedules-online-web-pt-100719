@@ -6,7 +6,7 @@ end
 
 def batch_badge_creator(names)
   attendees = []
- batch_badge_creator.map do |name|
+ names.map do |name|
     badge_maker(name)
   end
 end
