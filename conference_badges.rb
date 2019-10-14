@@ -43,7 +43,11 @@ end
 # end
 
 def assign_rooms(attendees)
-  
+  room_assignments = []
+  attendees.each do |name, room_number|
+    room_assignments.push("Hello, #{name}! \You'll\ be assigned to room #{room_number}!")
+  end
+  room_assignments
 end
 
 def printer(attendees)
