@@ -54,11 +54,6 @@ def printer(attendees)
   batch_badge_creator(attendees) do |attendee|
     puts attendee
   end
-    
-    assign_rooms(attendees) do |attendee|
-      puts attendee
-  end
-    
   assign_rooms(attendees) do |attendee|
     puts attendee
   end
