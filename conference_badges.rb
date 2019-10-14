@@ -8,7 +8,6 @@ def batch_badge_creator(name)
   badge_maker.map do |name|
     badge_maker(name)
   end
-  batch_badge_creator
 end
 
 # def batch_badge_creator(array)
