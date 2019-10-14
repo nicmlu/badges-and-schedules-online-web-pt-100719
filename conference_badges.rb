@@ -55,6 +55,10 @@ def printer(attendees)
     puts attendee
   end
     
+    assign_rooms(attendees) do |attendee|
+      puts attendee
+  end
+    
   assign_rooms(attendees) do |attendee|
     puts attendee
   end
